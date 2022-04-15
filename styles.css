@@ -7,12 +7,20 @@ body {
   box-sizing: border-box;
 }
 
+.header{
+  background: #eceee0;
+}
+
 .container {
   max-width: 800px;
-  display: flex;
+  margin: auto auto;
+  
+}
+
+.header-iner{
   justify-content: space-between;
   align-items: center;
-  margin: auto auto;
+  display: flex;
   background: #eceee0;
   height: 70px;
   padding-left: 30px;
@@ -50,4 +58,71 @@ body {
 
 .link:hover svg rect {
   stroke: #65bb69;
+}
+
+.box{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  background: #4D4B59;
+  height: 370px;
+  padding-left: 0px;
+  padding-right: 0px;
+  
+
+}
+
+.photo{
+  background-size: cover;
+  background-position: center;
+  height: 370px;
+  width: 50%;
+}
+
+.info{
+  margin: auto auto;
+  text-align: center;
+}
+
+.text{
+  font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+}
+
+.btn{
+  color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    width: 160px;
+    display: inline-flex;
+    padding: 0 10px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    background: #65BB69;
+    border-radius: 50px;
+}
+
+.pryamokutnik{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  background: #65BB69;
+  height: 500px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.krug{
+  margin: auto auto;
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 100%;
 }
