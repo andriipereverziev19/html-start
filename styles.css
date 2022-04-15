@@ -112,3 +112,28 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+/* food for tigers ends */
+
+/* new block starts*/
+
+.wrapper_new{
+  width: 800px;
+  height: 500px;
+  background-color: #65BB69;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo_big{
+  width: 150px;
+  height: 150px;
+  background-color: #FFFFFF;
+  border-radius: 100%;
+  
+}
+
+
+
+/*new block ends*/
