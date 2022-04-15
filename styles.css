@@ -10,10 +10,15 @@ body {
 .container {
   
   max-width: 800px;
+  margin: auto auto;
+  
+}
+
+.header-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: auto auto;
+  
   background: #eceee0;
   height: 70px;
   padding-left: 30px;
@@ -40,7 +45,7 @@ body {
 }
 
 .link svg {
-  position: absolute;
+  position: relative;
   top: 2px;
 }
 
@@ -53,11 +58,8 @@ body {
   stroke: #65bb69;
 }
 .btn{
-  position: absolute;
 width: 160px;
 height: 40px;
-left: 326px;
-top: 277px;
 display: inline-flex;
 justify-content: center;
 align-items: center;
@@ -86,12 +88,29 @@ color: #0f0e0e;
   align-items: center;
   margin: auto auto;
   background:  #4D4B59;
-  ;
   height: 370px;
-  padding-left: 30px;
-  padding-right: 30px;
 }
 .box{
   margin: auto auto; 
   text-align: center;
+}
 
+.box p {
+  color: white;
+  font-size: 24px;
+}
+
+.tiger-image {
+  width: 50%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-block-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 370px;
+  background-color: #4D4B59;
+}
