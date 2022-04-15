@@ -114,3 +114,21 @@ color: #0f0e0e;
   height: 370px;
   background-color: #4D4B59;
 }
+
+.circle{
+  width: 800px;
+  height: 500px;
+  
+  background-color: #65BB69;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .elipse{
+    
+    width: 150px;
+   height: 150px;
+   
+   border-radius: 100%;
+   background: #FFFFFF;
+  }
