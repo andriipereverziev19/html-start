@@ -60,43 +60,36 @@ body {
 /* food for tigers starts */
 
 .section_food {
-  width: 800px;
-  height: 370px;
-  top: 69px;
   background: #4D4B59;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 370px;
 }
 
 .block_tiger {
-  max-width: 400px;
+  width: 50%;
+  height: 100%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .img_star {
   width: 41px;
   height: 41px;
-  margin-left: 200px;
-  top: 171px;
-  position: absolute;
-  margin-top: 10px;
 }
 
 .heading {
-  height: 127px;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  padding-left: 80px;
   color: #fff;
-  margin-bottom: -76px;
-  margin-left: 40px;
-  display: inline;
 }
 
 .btn {
-  width: 160px;
   height: 40px;
   text-decoration: none;
   border-radius: 50px;
@@ -106,11 +99,16 @@ body {
   align-items: center;
   justify-content: center;
   color: #fff;
-
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
  
 }
 
 .img_tiger {
-  width: 404px;
-  height: 370px;
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
